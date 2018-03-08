@@ -11,6 +11,8 @@ Vue.use(ElementUi)
 Object.keys(Components).forEach((key) => {
     Vue.component(key, Components[key])
 })
+
+
 Vue.config.productionTip = false
 
 new Vue({
